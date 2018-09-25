@@ -1,7 +1,6 @@
 #!/bin/bash
 
-echo "enter a number:"
-read i
+i="$1"
 
 for ((l=0;l<${i};l++))
 do
